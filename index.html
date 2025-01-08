@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/poke.css" />
+    <title>Poké Party</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="header-nav">
+        <img
+          class="header-nav__image"
+          src="/assets/pikachu.jpeg"
+          alt="a logo depicting a pokemon"
+        />
+        <h1 class="header-nav__title">Welcome to Poke Party!</h1>
+      </div>
+    </header>
+    <main>
+      <div class="popup-part__btn">
+        <button id="showPopup" class="show-popup">
+          CLICK HERE FOR INSTRUCTIONS
+        </button>
+      </div>
+      <div id="popupContainer" class="popup-container">
+        <div class="popup">
+          <h3>INSTRUCTIONS FOR YOU</h3>
+          <div class="popup__instructions">
+            <p>When you train your Pokémon three times, its level goes up!</p>
+            <p>Make sure to keep your Pokémon happy by feeding</p>
+            <p>and playing with them!</p>
+          </div>
+          <button id="closePopup" class="close-btn">CLOSE</button>
+        </div>
+      </div>
+      <div class="pokemon-container">
+        <div class="pokemon-card">
+          <h2 class="pokemon-card__name"></h2>
+          <img class="pokemon-card__image" />
+          <div class="pokemon-card__stats">
+            <p class="pokemon-card__stat">Hunger: <span id="hunger"></span></p>
+            <p class="pokemon-card__stat">
+              Happiness: <span id="happiness"></span>
+            </p>
+            <p class="pokemon-card__stat">Level: <span id="level"></span></p>
+            <p
+              id="countdown"
+              class="pokemon-card__stat pokemon-card__stat--hidden"
+            ></p>
+          </div>
+        </div>
+        <div class="pokemon-card__buttons">
+          <button class="pokemon-card__button pokemon-card__button--feed">
+            FEED
+          </button>
+          <button class="pokemon-card__button pokemon-card__button--train">
+            TRAIN
+          </button>
+          <button class="pokemon-card__button pokemon-card__button--play">
+            PLAY
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Brought to you by Team Hakachu</p>
+    </footer>
+  </body>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="/scripts/popup.js"></script>
+  <script src="/scripts/scripts.js"></script>
+</html>
