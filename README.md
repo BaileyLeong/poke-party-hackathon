@@ -73,7 +73,7 @@ A fun, interactive game where you can hatch and take care of your very own virtu
 
 ## Live Demo
 
-[Play the game here!](https://your-username.github.io/pokemon-virtual-pet)
+[Play the game here!]([https://your-username.github.io/pokemon-virtual-pet](https://baileyleong.github.io/poke-party-hackathon/))
 
 ---
 
