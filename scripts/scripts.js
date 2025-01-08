@@ -106,7 +106,7 @@ function updateStat() {
 
 function checkHunger() {
   if (hunger === 90) {
-    alert(`${pokemonName} is starving!`);
+    alert(`${pokemonName} is hungry!`);
   }
 }
 
@@ -131,13 +131,13 @@ async function startHunger() {
     checkHappiness();
     console.log(`Hunger increased! ${hunger}`);
     console.log(`Happiness decreased! ${happiness}`);
-    await new Promise((resolve) => setTimeout(resolve, 10000));
+    await new Promise((resolve) => setTimeout(resolve, 30000));
   }
 }
 
 function checkHappiness() {
-  if (happiness === 10) {
-    alert(`${pokemonName} is depressed.`);
+  if (happiness === 30) {
+    alert(`${pokemonName} seems sad.`);
   }
 }
 

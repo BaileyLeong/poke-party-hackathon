@@ -81,8 +81,7 @@ A fun, interactive game where you can hatch and take care of your very own virtu
 
 ### Gameplay Screenshots
 
-![Egg Hatching](path-to-image.png)
-![Feeding Animation](path-to-gif.gif)
+<img src="https://i.imgur.com/G9Gviur.png" alt="Egg Screen" width="500"> <img src="https://monosnap.com/image/sc3hGDU0xHTSLZurYqAmaHwFieFZol" alt="Button Animations" width="400">
 
 ---
 
@@ -197,3 +196,9 @@ A fun, interactive game where you can hatch and take care of your very own virtu
   - [Bailey Leong | Github](https://github.com/BaileyLeong)
   - [Huma Inayat | Github](https://github.com/fourfifthshuman)
   - [Yoona Oh | Github](https://github.com/yoonaoh312)
+
+## Disclaimer
+
+This project was created for educational purposes as part of the BrainStation diploma program. Pokémon and all related assets are the property of The Pokémon Company. This project is not affiliated with or endorsed by The Pokémon Company.
+
+The PokeAPI was used to access Pokémon data. See [PokeAPI](https://pokeapi.co/) for more details.
