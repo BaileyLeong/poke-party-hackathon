@@ -19,7 +19,7 @@ A fun, interactive game where you can hatch and take care of your very own virtu
   - If hunger reaches 100, the Pokémon "runs away," and the game restarts.
 - **Happiness**:
   - Decreases over time.
-  - If happiness drops below 10, the Pokémon becomes "depressed."
+  - If happiness drops below 10, the Pokémon becomes "sad."
 - **Level**:
   - Increases every 3 training actions.
 
@@ -147,20 +147,6 @@ A fun, interactive game where you can hatch and take care of your very own virtu
 ### External Libraries
 
 - **Axios**: For API calls.
-
----
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/pokemon-virtual-pet.git
-   ```
-2. Navigate to the project folder:
-   ```bash
-   cd pokemon-virtual-pet
-   ```
-3. Open the `index.html` file in your browser to start the game.
 
 ---
 
